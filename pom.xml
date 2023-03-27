@@ -8,7 +8,7 @@
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
-		<finalName>onlinebookstore</finalName>
+		<finalName>paypal</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -74,9 +74,8 @@
 	</dependencies>
 	
 	     <properties>
-                <sonar.host.url>http://3.101.30.139:9000/</sonar.host.url>
-                <sonar.login>admin</sonar.login>
-                <sonar.password>admin</sonar.password>
+                <sonar.host.url>http://18.144.75.37:9000/</sonar.host.url>
+                <sonar.login>d9fcfbefd3fde7465d48e3fc5a1af939a5ba3e00</sonar.login>
         </properties>
 	
 	
@@ -85,13 +84,13 @@
             <repository>
               <id>nexus</id>
               <name>Landmark Technologies Releases Nexus Repository</name>
-              <url>http://54.241.132.68:8081/repository/online-release/</url>
+              <url>http://54.219.22.224:8081/repository/paypal2-release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>Landmark Technologies Snapshot Nexus Repository </name>
-              <url>http://54.241.132.68:8081/repository/online-snap/</url>
+              <url>http://54.219.22.224:8081/repository/paypal2-snap/</url>
             </snapshotRepository>
         </distributionManagement>
 
