@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>onlinebookstore</groupId>
 	<artifactId>onlinebookstore</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src/main/java</sourceDirectory>
-		<finalName>paypal</finalName>
+		<finalName>Pipeline</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
@@ -84,13 +84,13 @@
             <repository>
               <id>nexus</id>
               <name>Landmark Technologies Releases Nexus Repository</name>
-              <url>http://54.219.22.224:8081/repository/paypal2-release/</url>
+              <url>http://54.183.165.67:8081/repository/paypal2-release/</url>
             </repository>
 
             <snapshotRepository>
               <id>nexus</id>
               <name>Landmark Technologies Snapshot Nexus Repository </name>
-              <url>http://54.219.22.224:8081/repository/paypal2-snap/</url>
+              <url>http://54.183.165.67:8081/repository/paypal2-snap/</url>
             </snapshotRepository>
         </distributionManagement>
 
