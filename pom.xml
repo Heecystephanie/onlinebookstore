@@ -74,7 +74,7 @@
 	</dependencies>
 	
 	     <properties>
-                <sonar.host.url>http://18.144.75.37:9000/</sonar.host.url>
+                <sonar.host.url>http://13.56.161.182:9000/</sonar.host.url>
                 <sonar.login>d9fcfbefd3fde7465d48e3fc5a1af939a5ba3e00</sonar.login>
         </properties>
 	
